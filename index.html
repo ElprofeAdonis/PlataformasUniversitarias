@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universidad</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+  </head>
+
+  <body>
+    <nav class="navbar bg-light mb-4">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          Universidad - Sistema de matricula
+        </a>
+      </div>
+    </nav>
+    <div class="container pagina-1">
+      <div class="row">
+        <div class="col">
+          <div class="card mb-5">
+            <div class="card-body">
+              <div class="formulario-datos-personales">
+                <form id="form-datos">
+                  <h4>Datos Personales</h4>
+                  <div class="form-floating mb-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="nomb"
+                      placeholder="Escriba su nombre"
+                    />
+                    <label for="input1">Nombre</label>
+                  </div>
+                  <div class="form-floating mb-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="apell"
+                      placeholder="Escriba su apellido"
+                    />
+                    <label for="apell">Apellido</label>
+                  </div>
+                  <div class="form-floating mb-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="edad"
+                      placeholder="Escriba su edad"
+                    />
+                    <label for="edad">Edad</label>
+                  </div>
+
+                  <div class="form-floating mb-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="nocar"
+                      placeholder="Escriba su numero de carne"
+                    />
+                    <label for="edad">Numero de Carne</label>
+                  </div>
+                  <div class="form-floating mb-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="ced"
+                      placeholder="Escriba su numero de cedula"
+                    />
+                    <label for="edad">Numero de Cedula</label>
+                  </div>
+                  <div class="form-floating mb-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="direcc"
+                      placeholder="Escriba su direcion"
+                    />
+                    <label for="edad">Direccion</label>
+                  </div>
+                  <div class="form-floating mb-2">
+                    <select class="form-select" id="input2">
+                      <option selected>
+                        Seleccione el tipo de estado que se encuentra
+                      </option>
+                      <option value="Soltero">Soltero</option>
+                      <option value="Casado">Casado</option>
+                      <option value="Divorciado">Divorciado</option>
+                      <option value="Viudo">Viudo</option>
+                    </select>
+                    <label for="input2">Estado Civil</label>
+                  </div>
+                  <div class="form-floating mb-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="tel"
+                      placeholder="Escriba su telefono"
+                    />
+                    <label for="tel">Telefono</label>
+                  </div>
+                  <div class="form-floating mb-5">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="corr"
+                      placeholder="Escriba su correo electronico"
+                    />
+                    <label for="corr">Correo Electronico</label>
+                  </div>
+
+                  <h4>Datos Contacto de Emergencia</h4>
+                  <div class="form-floating mb-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="contemerg"
+                      placeholder="Escriba el nombre de contacto"
+                    />
+                    <label for="contemerg">Nombre</label>
+                  </div>
+                  <div class="form-floating mb-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="numemerg"
+                      placeholder="Escriba el numero de telefono"
+                    />
+                    <label for="numemerg">Numero de telefono</label>
+                  </div>
+                  <div class="form-floating mb-2">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="correEmerg"
+                      placeholder="Escriba su correo electronico"
+                    />
+                    <label for="correEmerg">Correo Electronico</label>
+                  </div>
+                  <div class="form-floating mb-5">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="parenEmerg"
+                      placeholder="Escriba el parentesco"
+                    />
+                    <label for="parenEmerg">Parentesco</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block">
+                    Guardar
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+<!-- <div id="infosResult"></div> -->
